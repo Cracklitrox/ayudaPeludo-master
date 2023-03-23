@@ -1,11 +1,29 @@
+    #Inicio{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        text-align: center;
+    }
     body {
         background-color: bisque;
     }
     h1 {
         margin-top: 120px;
+        color: rgb(0, 0, 0);
+        text-align: center;
     }
-    p1 {
+    p {
+        color: black;
         text-align:left; display:flex; flex-direction: column; align-items:center;
+    }
+    p2,p3,p4 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h2,h3 {
+        text-align: center;
     }
     #imagen_perro {
         position: absolute;
@@ -26,4 +44,69 @@
         position: absolute;
         top: 820px;
         right: 750px;
+    }
+    #primera_imagen {
+        position: absolute;
+        top: 400px;
+        left: 300px;
+      }
+    #segunda_imagen {
+        position: absolute;
+        top: 650px;
+        left: 300px;
+    }
+    #tercera_imagen {
+        position: absolute;
+        top: 900px;
+        left: 300px;
+    }
+    #etiqueta_1 {
+        position: absolute;
+        top: 500px;
+        right: 750px;
+    }
+    #etiqueta_2 {
+        position: absolute;
+        top: 730px;
+        right: 750px;
+    }
+    #etiqueta_3 {
+        position: absolute;
+        top: 1000px;
+        right: 750px;
+    }
+    #inicio {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    #imagen_gato_perro_individual {
+        position: absolute;
+        top: 50px;
+        left: 100px;
+    }
+    #nombre {
+        position: absolute;
+        top: 150px;
+        right: 835px;
+    }
+    #edad {
+        position: absolute;
+        top: 175px;
+        right: 858px;
+    }
+    #genero {
+        position: absolute;
+        top: 200px;
+        right: 833px;
+    }
+    #esterilizado {
+        position: absolute;
+        top: 225px;
+        right: 840px;
+    }
+    #nro_chip {
+        position: absolute;
+        top: 250px;
+        right: 760px;
     }
