@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Carlos Gacitua and Miguel Conejeros" content="description_contact">
+    <meta 
+      name="description"
+      content="La Pagina sirve para dar informacion y 
+      redactar mensajes sobre los contactos
+      disponibles por la organizacion ONG."
+    >
+    <link rel="icon" type="image/x-icon" href="../images/icono.png">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+  </head>
+  <h1 class="center">
+    Contacto
+  </h1>
+  <body class="center">
+    <a id="pagina_anterior" href="../index.html" alt="pagina_anterior">Inicio ></a>
+    <h2>Formulario de Contacto</h2>
+    <form action="enviar-correo.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input style="position:sticky; left: 600px;" type="text" id="nombre" name="nombre" required>
+        <label for="correo">Correo electrónico:</label>
+        <input style="position:sticky; left: 600px;" type="email" id="correo" name="correo" required>
+        <label for="mensaje">Mensaje:</label>
+        <textarea style="position:sticky; left: 605px;" id="mensaje" name="mensaje" rows="5" required></textarea>
+        <input style="position:sticky; left: 665px;" type="submit" value="Enviar">
+    </form>
+    <h2>Otros Métodos de Contacto</h2>
+    <ul>
+        <li>Correo electrónico: <a style="color: red;" href="mailto:info@ejemplo.com">carlos.gacitua@gmail.com</a></li>
+        <li>Correo electrónico: <a style="color: red;" href="mailto:info@ejemplo.com">miguel.conejeros@gmail.com</a></li>
+    </ul>
+    <footer>
+      <p>Derechos Reservados &copy; 2023 Ejemplo, Inc.</p>
+    </footer>
+  </body>
+</html>

@@ -1,3 +1,71 @@
+    label, input, textarea {
+        display: block;
+        margin-bottom: 10px;
+    }
+    input[type="submit"] {
+        margin-top: 10px;
+    }
+    .center {
+        color: black;
+        text-align: center;
+    }
+    .images {
+        position: absolute;
+        border-radius: 30px;
+        width: 200px;
+        height: 200px;
+    }
+    .nombre_etiquetas {
+        position: absolute;
+        top: 500px;
+        right: 910px;
+        color: aliceblue;
+        background-color: rgb(37, 23, 112);
+        text-transform: inherit;
+        text-decoration: none;
+        font-weight: 700;
+        border-radius: 10px;
+        margin: 15px;
+        padding: 16px;
+    }
+    #redireccionar_paginas {
+        text-align: center;
+        display: inline-block;
+        color: aliceblue;
+        background-color: rgb(37, 23, 112);
+        text-transform: inherit;
+        text-decoration: none;
+        font-weight: 700;
+        border-radius: 10px;
+        margin: 15px;
+        padding: 16px;
+        position: absolute;
+        top: 550px;
+        right: 860px;
+    }
+    #imagenes_inicio {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        border-radius: 30px;
+        top: 330px;
+        left: 350px;
+    }
+    #personalizacion_mascota_individual {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-transform: inherit;
+        position: absolute;
+    }
+    #informe{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-transform: inherit;
+        position: absolute;
+        height: 220px;
+        width: 300px;
+        margin-top: 310px;
+        margin-left: 520px;
+    }
+
     #Inicio{
         display: inline-block;
         color: rgb(85, 132, 173);
@@ -15,7 +83,6 @@
         text-align: center;
     }
     body {
-    
         width: 100%;
         height: 100%;
         color: #fff;
@@ -29,161 +96,7 @@
         50%{background-position: 100% 50%;}
         100%{background-position: 0 50%;}
     }
-    h1 {
-        font-family: Arial, Helvetica, sans-serif;
-        margin-top: 50px;
-        color: rgb(0, 0, 0);
-        text-align: center;
-    }
-    p {
-        color: black;
-        text-align:left; display:flex; flex-direction: column; align-items:center;
-    }
-    p2{
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    h2{
-        margin-top: 440PX;
-        margin-right: 50px;
-        text-align: center;
-    }
-    h3 {
-        margin-top: 50px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-align: center;
-    }
-    h4{
-       margin-left: 285px;   
-       margin-top: 300px;
-    }
-    h6{
-        text-align: center;
-    }
-    #encargado_1{
-        border-radius: 20px;
-        position: absolute;
-        top: 820px;
-        right: 930px;
-    }
-    #encargado_2{
-        position: absolute;
-        border-radius: 20px;
-        top: 820px;
-        left: 450px;
-    }
-    #encargado_3{
-        position: absolute;
-        border-radius: 20px;
-        top: 820px;
-        left: 690px;
-    }
-    #encargado_4{
-        position: absolute;
-        border-radius: 20px;
-        top: 820px;
-        left: 910px;
-    }
-    #imagen_perro {
-        position: absolute;
-        border-radius: 30px;
-        top: 330px;
-        left: 350px;
-    }
-    #imagen_gato {
-        position: absolute;
-        border-radius: 30px;
-        top: 330px;
-        left: 800px;
-    }
-    #pagina_perro {
-        display: inline-block;
-        color: aliceblue;
-        background-color: rgb(37, 23, 112);
-        text-transform: inherit;
-        text-decoration: none;
-        font-weight: 700;
-        border-radius: 10px;
-        margin: 15px;
-        padding: 16px;
-        position: absolute;
-        top: 550px;
-        right: 860px;
-    }
-    #pagina_gato {
-        display: inline-block;
-        color: aliceblue;
-        background-color: rgb(37, 23, 112);
-        position: absolute;
-        text-transform: inherit;
-        text-decoration: none;
-        font-weight: 700;
-        border-radius: 10px;
-        margin: 15px;
-        padding: 16px;
-        top: 550px;
-        right: 410px;
-    }
-    #primera_imagen {
-        position: absolute;
-        border-radius: 30px;
-        top: 300px;
-        left: 300px;
-      }
-    #segunda_imagen {
-        position: absolute;
-        border-radius: 30px;
-        top: 300px;
-        left: 560px;
-    }
-    #tercera_imagen {
-        position: absolute;
-        border-radius: 30px;
-        top: 300px;
-        left: 830px;
-    }
-    #etiqueta_1 {
-        position: absolute;
-        top: 500px;
-        right: 910px;
-        color: aliceblue;
-        background-color: rgb(37, 23, 112);
-        text-transform: inherit;
-        text-decoration: none;
-        font-weight: 700;
-        border-radius: 10px;
-        margin: 15px;
-        padding: 16px;
-    }
-    #etiqueta_2 {
-        position: absolute;
-        top: 500px;
-        right: 660px;
-        color: aliceblue;
-        background-color: rgb(37, 23, 112);
-        text-transform: inherit;
-        text-decoration: none;
-        font-weight: 700;
-        border-radius: 10px;
-        margin: 15px;
-        padding: 16px;
-    }
-    #etiqueta_3 {
-        position: absolute;
-        top: 500px;
-        right: 380px;
-        color: aliceblue;
-        background-color: rgb(37, 23, 112);
-        text-transform: inherit;
-        text-decoration: none;
-        font-weight: 700;
-        border-radius: 10px;
-        margin: 15px;
-        padding: 16px;
-    }
-    #inicio {
+    #pagina_anterior {
         display: inline-block;
         color: aliceblue;
         background-color: rgb(37, 23, 112);
@@ -203,48 +116,4 @@
         position: absolute;
         top: 50px;
         left: 100px;
-    }
-    #nombre {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        text-transform: inherit;
-        position: absolute;
-        top: 150px;
-        right: 735px;
-    }
-    #edad {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        text-transform: inherit;
-        position: absolute;
-        top: 175px;
-        right: 735px;
-    }
-    #genero {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        text-transform: inherit;
-        position: absolute;
-        top: 200px;
-        right: 735px;
-    }
-    #esterilizado {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        text-transform: inherit;
-        position: absolute;
-        top: 225px;
-        right: 735px;
-    }
-    #nro_chip {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        text-transform: inherit;
-        position: absolute;
-        top: 250px;
-        right: 635px;
-    }
-    #informe{
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        text-transform: inherit;
-        position: absolute;
-        height: 220px;
-        width: 300px;
-        margin-top: 310px;
-        margin-left: 520px;
     }
