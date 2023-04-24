@@ -5,6 +5,38 @@
     input[type="submit"] {
         margin-top: 10px;
     }
+    textarea{
+        resize: none;
+    }
+    .cont-formulario{
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        padding: 20px; 
+        text-align: center;
+        margin-left: 500px;
+        background: center;
+        border-radius: 35px;
+        text-align: left;
+        color: black;
+        background-color: rgba(213, 255, 252, 0.534);
+        position: absolute;
+
+    }
+    .contenedor{
+        border-radius: 35px;
+        padding: 25px;
+        text-align: left;
+        color: black;
+        background-color: rgba(213, 255, 252, 0.534);
+        position: absolute;
+        top: 250px;
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+    }
+    label.error{
+        color: red;
+    }
     .center {
         color: black;
         text-align: center;
@@ -82,19 +114,13 @@
         right: 10px;
         text-align: center;
     }
-    body {
-        width: 100%;
-        height: 100%;
-        color: #fff;
-        background: linear-gradient(45deg, red ,blue,green,black);
-        background-size: 400% 400%;
-        position: relative;
-        animation: cambiar 10s ease infinite;
-    }
-    @keyframes cambiar {
-        0%{background-position: 0 50%;}
-        50%{background-position: 100% 50%;}
-        100%{background-position: 0 50%;}
+    body{
+        background-image: url(../images/fondo13.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment:fixed ;
+        background-position: 500%;
     }
     #pagina_anterior {
         display: inline-block;
@@ -117,3 +143,4 @@
         top: 50px;
         left: 100px;
     }
+    
