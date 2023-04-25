@@ -17,3 +17,4 @@ jQuery.extend(jQuery.validator.messages, {
     max: jQuery.validator.format("Por favor, escribe un valor menor o igual a {0}."),
     min: jQuery.validator.format("Por favor, escribe un valor mayor o igual a {0}.")
   });
+  ///sirve para que la validaciones sean en español y no en ingles

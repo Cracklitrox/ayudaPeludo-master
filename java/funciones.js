@@ -1,6 +1,9 @@
   $("#form").validate({
     rules:{
         nombre: {
+            ///El requiered sirve para que el input sea obligatorio y no se deje enblanco
+            ///El milength el minimo de carcater largo de que debe tener 
+            ///El maxlength el maximo de carcater de largo debe tener
             required: true,
             minlength: 4,
             maxlenght: 30
@@ -11,6 +14,7 @@
             maxlenght: 30
         },
         correo:{
+            ///El correo sirve para validar si pone un @
             required: true,
             correo: true
         },
