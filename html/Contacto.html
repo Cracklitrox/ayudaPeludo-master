@@ -70,6 +70,22 @@
             <label for="correo">Correo Electronico:</label>
             <input type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
           </div>	
+          <!-- Rut o Pasaporte -->
+          <div>
+            <label for="documento">Documento:</label>
+            <select name="documento" id="documento">
+              <option value="rut">Rut</option>
+              <option value="pasaporte">Pasaporte</option> 
+            </select>
+          </div>
+          <!-- Contenedor campo de entrada del Rut -->
+          <div id="campo_rut" style="display: none;">
+            <label for="rut">Rut:</label>
+            <input type="text" name="rut" id="rut" placeholder="Ingrese su Rut">
+            <button id="comprobacion_rut" class="btn btn-default">Valida RUT</button>
+          </div>
+          <!-- Pequeño mensaje para la validacion del rut -->
+          <p class="text-info" id="msgerror"></p>
           <!--Telefono-->
           <div>
             <label for="telefono">Telefono:</label>
@@ -95,7 +111,7 @@
               <optgroup label="Region los Rios">
                 <option value="3">Valdivia</option>
               </optgroup>
-            </select>  
+            </select>
           </div>
           <!--Comentario-->
           <div>
